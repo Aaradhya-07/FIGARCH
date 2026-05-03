@@ -1,0 +1,17 @@
+# Core model
+arch==8.0.0
+scipy==1.17.1
+numpy==2.4.4
+pandas==3.0.2
+requests==2.33.1
+tqdm==4.67.3
+
+# API
+fastapi==0.136.1
+uvicorn==0.46.0
+
+# Config / secrets
+python-dotenv==1.2.2
+
+# Persistence (ClickHouse)
+clickhouse-connect>=0.8
